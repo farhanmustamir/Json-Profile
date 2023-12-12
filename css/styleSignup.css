@@ -1,0 +1,92 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, figure, blockquote, dl, dd, ul, ol, li, pre {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #76c8ee;
+}
+
+.vh-100 {
+    min-height: 100vh;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.shadow {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.w-450 {
+    width: 450px;
+}
+
+.p-3 {
+    padding: 1rem;
+}
+
+.display-4 {
+    font-size: 2.5rem;
+}
+
+.fs-1 {
+    font-size: 1.25rem;
+}
+
+.alert {
+    margin-bottom: 1rem;
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+/* Customize the form elements */
+.form-control {
+    margin-bottom: 1rem;
+}
+
+.btn-primary {
+    background-color: #535353;
+    color: #fff;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.link-secondary {
+    color: #adadad;
+    text-decoration: none;
+    margin-left: 1rem;
+}
+
+.link-secondary:hover {
+    color: #454545;
+}
+
+/* Customize the form layout */
+form {
+    background-color: #d3e1f8;
+    border-radius: 0.25rem;
+}
+
+/* Responsive styles */
+@media (max-width: 576px) {
+    .w-450 {
+        width: 100%;
+    }
+}
